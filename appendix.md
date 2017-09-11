@@ -19,7 +19,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 
 http://www.oschina.net/translate/a-successful-git-branching-model 介绍一个成功的 Git 分支模型
 
-
+https://yuedu.baidu.com/ebook/f2ec7e699a6648d7c1c708a1284ac850ad020418 MarkDown实用指南（1.9元）
 
 ## 广告
 
