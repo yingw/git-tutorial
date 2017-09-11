@@ -214,19 +214,17 @@ mvnw.cmd
 
 https://github.com/github/gitignore
 
-## 
-
 ## 其他命令
 
-### 查看差异
+### 查看差异 git diff
 
 待 stage 的文件，可以用 diff 工具来查看差异（但是更推荐用外部工具如 SourceTree、Beyond Compare、Tortoise Merge）
 
 ```shell
-$ git diff readme.txt
+git diff readme.txt
 ```
 
-### 删除文件
+### 删除文件 git rm
 
 ```shell
 git rm file
@@ -242,7 +240,7 @@ git commit
 
 是一大串字母+数字组合的 SHA1 加密串，指定版本时候，一般只要写其前 7 位就够了
 
-### 回退工作区
+### 回退工作区 git checkout
 
 可以丢弃工作区的修改，回退到最后一次暂存区的状态：
 
@@ -250,7 +248,7 @@ git commit
 git checkout -- file
 ```
 
-### 回退暂存区
+### 回退暂存区 git reset
 
 暂存区的修改撤销掉（unstage），先 reset HEAD file，再 checkout 回退工作区修改：
 
@@ -260,6 +258,8 @@ git checkout -- file
 ```
 
 ## 工作区、暂存区、分支
+
+工作区、暂存区、分支的概念是 Git 里最核心的概念之一，这里介绍一下工作区和暂存区，分支将在后面章节介绍
 
 add 将文件放到暂存区 stage，head 指向 master 分支
 

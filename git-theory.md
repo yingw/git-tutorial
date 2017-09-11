@@ -1,5 +1,7 @@
 # Git 的概念
 
+## 集中式 VS 分布式
+
 Git 是分布式版本控制系统。区别于 SVN 和 CVS 等早期集中式版本控制系统。
 
 集中式版本控制系统最大的毛病就是必须联网才能工作；
@@ -8,7 +10,9 @@ Git 是分布式版本控制系统。区别于 SVN 和 CVS 等早期集中式版
 
 和 SVN 的详细比对参考：[GitSvnComparison](https://git.wiki.kernel.org/index.php/GitSvnComparsion)
 
-## A summary of differences
+## 一些区别
+
+A summary of differences
 
 - Git is much faster than Subversion，快
 - Subversion allows you to check out just a subtree of a repository; Git requires you to clone the entire repository (including history) and create a working copy that mirrors at least a subset of the items under version control. 完整
@@ -24,7 +28,7 @@ Git 是分布式版本控制系统。区别于 SVN 和 CVS 等早期集中式版
 - Subversion's UI is more mature than Git's 界面
 - Walking through versions is simpler in Subversion because it uses sequential revision numbers (1,2,3,..); Git uses unpredictable SHA-1 hashes. Walking backwards in Git is easy using the "^" syntax, but there is no easy way to walk forward. 回退
 
-分布式图解
+## 分布式图解
 
 ![image](https://camo.githubusercontent.com/f66237df6febc060096bbc44ac137be244a9091b/687474703a2f2f6769742d73636d2e636f6d2f666967757265732f3138333333666967303130332d746e2e706e67)
 
@@ -34,11 +38,13 @@ Git 是分布式版本控制系统。区别于 SVN 和 CVS 等早期集中式版
 
 集中式
 
+## 速度比较
+
 由于 Git 只记录变化，很快，各操作的速度比较：
 
 ![](http://image.uczzd.cn/3832218279799585721.jpeg?id=0&from=export&width=720)
 
-其他一些产品的介绍：
+## 其他一些产品
 
 - CVS作为最早的开源而且免费的集中式版本控制系统，直到现在还有不少人在用。由于CVS自身设计的问题，会造成提交文件不完整，版本库莫名其妙损坏的情况。同样是开源而且免费的SVN修正了CVS的一些稳定性问题，是目前用得最多的集中式版本库控制系统。
 - 除了免费的外，还有收费的集中式版本控制系统，比如IBM的ClearCase（以前是Rational公司的，被IBM收购了），特点是安装比Windows还大，运行比蜗牛还慢，能用ClearCase的一般是世界500强，他们有个共同的特点是财大气粗，或者人傻钱多。

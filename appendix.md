@@ -1,26 +1,19 @@
 # 附录
 
-
-
-git diff --stage
-
-git reset <file>
-
-git checkout -- file
-
-git branch develop 创建分支
-
-git checkout develop 切换分支
-
-
-
 ## 工具
 
+- Typora https://www.typora.io/
+- SourceTree https://www.sourcetreeapp.com/
+- 有道云笔记 https://note.youdao.com
+- git-scm https://git-scm.com/
+- GitHub https://github.com/
+- MarkDown http://wowubuntu.com/markdown/
 
 
-# 参考资料
 
-https://try.github.io/ 一个在线练习 Git 的教程，只消 5 分钟，了解大部分基础命令。
+## 参考资料
+
+https://try.github.io/ 一个在线 Linux + 练习 Git 的教程，只消 5 分钟，了解大部分基础命令。
 
 https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000 廖雪峰的 Git 教程，强烈推荐
 
@@ -28,10 +21,12 @@ http://www.oschina.net/translate/a-successful-git-branching-model 介绍一个�
 
 
 
-广告
+## 广告
 
-https://github.com/yingw
+作者的各 repo，欢迎 star 和 PR
 
-http://git.wilmartest.cn/yinguowei
+GitHub：https://github.com/yingw
 
-https://hub.docker.com/u/yinguowei/
+GitLab：http://git.wilmartest.cn/yinguowei
+
+Docker：https://hub.docker.com/u/yinguowei/
