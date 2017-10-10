@@ -62,5 +62,17 @@ git pull origin master
 git diff  HEAD
 ```
 
+## 重新设置 remote
+
+```
+git remote set-url origin http://git.wilmar.cn/itds/wcm/wilmar-cloud-messaging.git
+```
+
+查看
+
+```
+git remote get-url origin
+```
+
 
 
